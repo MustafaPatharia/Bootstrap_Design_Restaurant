@@ -1,0 +1,308 @@
+body{
+    font-family: 'FontAwesome', sans-serif;
+    box-sizing: unset;
+}
+#home{
+    background-image: url("../assets/mainBg.png");
+    background-size: cover;
+    padding-bottom:150px
+}
+.container{
+    max-width: 1250px;
+}
+.gold-bg{
+    background-color:#cc9000;
+}
+.gold-font{
+    color:#cc9000;
+}
+.white-bg{
+    background-color:#ffffff;
+}
+.white-font{
+    color:#ffffff!important;
+}
+.brown-bg{
+    background-color:#521d00;
+}
+.brown-font{
+    color:#521d00
+}
+.logo{
+    width:155px;
+}
+.site-link, .site-link:hover{
+    color:rgb(255, 255, 255);
+    font-family: "Yaseva-one";
+    font-weight: bold;
+}
+.link-active, .link-disabled:hover{
+    border-top-style: solid;
+    border-top-width:3px;
+    border-color: rgb(255, 255, 255);
+}
+.link-disabled{
+    border-top-style: solid;
+    border-top-width:3px;
+    border-color: rgba(255, 255, 255, 0)
+}
+.py-24{
+    padding-top: 24px;
+    padding-bottom:24px;
+}
+.social-icon{
+    color:#cc9000;
+    border-top-style: solid;
+    border-top-width:3px;
+    border-color: rgba(255, 255, 255, 0)
+}
+.social-icon:hover{
+    color:#f5c243;  
+    border-top-style: solid;
+    border-top-width:3px;
+    border-color: rgba(255, 255, 255, 0)
+}
+#masked {
+    -webkit-mask-image: url("../assets/Artboard\ 1.png");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+  }
+.decoration-90{
+    height:90px;
+}
+.decoration-60{
+    height: 60px;
+}
+.decoration-30{
+    height: 30px;
+}
+.banner-heading{
+    text-align: center;
+    font-family: "Yeseva-one";
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 90px;
+    margin-top: 150px;
+    margin-bottom: 15px;
+}
+.black-btn{
+    font-family: "Lato";
+    font-size: 18px;
+    width:fit-content;
+    margin:0 11px;
+    padding: 22px 51px;
+    background:none;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: solid black 1px;
+    color: white;
+}
+.white-btn{
+    font-family: "Lato";
+    font-size: 18px;
+    width:fit-content;
+    margin:0 11px;
+    padding: 22px 51px;
+    background:none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: solid rgb(255, 255, 255) 1px;
+    color: rgb(255, 255, 255);
+}
+.banner-btns{
+    width: fit-content;
+    display: flex;
+    margin: 16px 0;
+}
+#about , #reservation{
+    background-image: url("../assets/pattern.png");
+    background-size: cover;
+}
+.about-row{
+    padding: 42.5px 0;
+    text-align: center;
+}
+.cook{
+    padding: 70px 0 30px;
+}
+.heading{
+    font-family: "Yaseva-one";
+    font-weight: bold;
+    font-size: 36px;
+    margin:0
+}
+.para{
+    font-family: "Lato";
+    font-size: 16px;
+    padding: 16px 70px;
+}
+.cook-img{
+    margin: 16px;
+}
+.dish{
+    padding: 10px;
+    width: inherit;
+}
+#ingredients{
+    background-image: url("../assets/bg.png");
+    background-size:cover;
+}
+.ingredients{
+    text-align:center;
+    background-color: rgb(0,0,0,0.5);    
+    margin:100px 0;
+    padding:80px 0;
+}
+.ingredients-row{
+    margin-top:42px;
+}
+#menu{
+    background-image:url("../assets/pattern2.png");
+    background-size:cover;
+    padding:65px 0
+}
+.divider-gold-bar{
+    width: 100%;
+    height: 1px;
+    margin: auto;
+    opacity:0.4;
+    background-color: #cc9000;
+}
+h4{
+    font-family:"Yaseva-one";
+    font-size:21px;
+    font-weight:bold
+}
+.special div:first-child{
+    border: solid 1px rgb(204,144,0,0.4);
+    margin:26px 0;
+}
+.menu-item{
+    padding: 5px 14px
+}
+.special{
+    border:solid;
+    border-color:rgb(0,0,0,0)
+}
+.special::before{
+    content:"Special";
+    right: 16px;
+    background-color: #cc9000;
+    padding: 3px 7px;
+    color: white;
+    float: right;
+    font-size: 14px;
+}
+.menu-col{
+    padding:35px 65px
+}
+#menu p{
+    margin:3px 0;
+}
+#review{
+    background-image:url("../assets/reviewBg.png");
+    background-size: cover;
+    padding:100px 0;
+}
+.review-box{
+    padding:85px 70px;
+    background-color:rgb(0,0,0,0.8);
+    text-align:center;
+    margin:0 170px
+}
+.reservation-row{
+    padding:100px 0;
+}
+.reservation-col{
+    text-align:center;
+}
+.form-label{
+    display: block;
+    font-weight: 900;
+    font-family: "Lato";
+}
+.form-input{
+    width: 100%;
+    padding: 8px 14px;
+    border: solid 2px #521d00;
+}
+.padding-form-r{
+    padding-right: 70px;
+    padding-left: 15px;
+}
+.padding-form-l{
+    padding-right: 15px;
+    padding-left: 70px;
+}
+.form-button{
+    border:none;
+    padding:5px 45px;
+    margin-top:16px;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 50px 0;
+}
+.footer-icons i{
+    padding: 0 5px;
+}
+
+@media screen and (max-width:375px){
+    .banner-heading{
+        font-size: 64px;
+        margin-top: 100px;
+    }
+    .black-btn, .white-btn{
+        font-size: 18px;
+        padding: 12px 18px;
+    }
+    .decoration{
+        margin:20px 0
+    }
+    .para{
+        padding: 10px 20px;
+    }
+    .cook{
+        padding: 0px;
+    }
+    .ingredients{
+        margin: 100px 15px;
+        padding: 60px 0;
+    }
+    .col-img{
+        flex: 0 0 33%;
+        max-width: 33%;
+    }
+    .ingredients-img{
+        width:inherit
+    }
+    .ingredients{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .menu-col{
+        padding:20px
+    }
+    #menu{
+        background-image:url("../assets/pattern2-mobile.png")
+    }
+    .review-box{
+        padding: 85px 10px;
+        margin:0 10px;
+    }
+    .review-bow p{
+        padding: 16px 10px;
+    }
+    .reservation-row .col-sm-3{
+        width:45%;
+        margin: 8px;
+    }
+    .reservation-row img{
+        width: 100%;
+    }
+    .padding-form-r , .padding-form-l{
+        padding: 10px 20px;
+    }
+    .footer .row .col-sm-12{
+        padding-top:20px;
+    }
+}
